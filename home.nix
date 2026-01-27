@@ -10,9 +10,14 @@
     # fonts
     nerd-fonts.jetbrains-mono
 
-    # programs
+    # cli programs
     hello
+
+    # gui programs
     alacritty
+    mpv
+    zathura
+    obsidian
   ];
 
   programs.git = {
@@ -23,6 +28,7 @@
 
   home.file = {
     ".config/alacritty".source = ./configs/alacritty;
+    ".config/zathura".source = ./configs/zathura;
   };
 
   home.sessionVariables = {

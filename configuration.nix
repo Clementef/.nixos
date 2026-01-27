@@ -104,6 +104,7 @@
     htop
     tmux
     zip
+    unzip
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
