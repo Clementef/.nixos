@@ -7,6 +7,10 @@
   home.stateVersion = "25.11"; # do not change
 
   home.packages = with pkgs; [
+    # fonts
+    nerd-fonts.jetbrains-mono
+
+    # programs
     hello
     alacritty
   ];
@@ -18,10 +22,7 @@
   };
 
   home.file = {
-    # # Building this configuration will create a copy of 'dotfiles/screenrc' in
-    # # the Nix store. Activating the configuration will then make '~/.screenrc' a
-    # # symlink to the Nix store copy.
-    # ".screenrc".source = dotfiles/screenrc;
+    ".config/alacritty".source = ./configs/alacritty;
   };
 
   home.sessionVariables = {

@@ -83,9 +83,7 @@
     isNormalUser = true;
     description = "clem";
     extraGroups = [ "networkmanager" "wheel" ];
-    packages = with pkgs; [
-    #  thunderbird
-    ];
+    packages = with pkgs; [ ];
   };
 
   # Install firefox.
