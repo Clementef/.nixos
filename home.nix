@@ -24,6 +24,7 @@
     mpv
     zathura
     obsidian
+    sublime4
   ];
 
   programs.git = {

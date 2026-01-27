@@ -22,6 +22,7 @@
             home-manager.useGlobalPkgs = true;
             home-manager.useUserPackages = true;
             home-manager.users.clem = import ./home.nix; 
+            home-manager.extraSpecialArgs = {inherit inputs;};
           }
         ];
       };
