@@ -96,8 +96,14 @@
   # $ nix search wget
   environment.systemPackages = with pkgs; [
     git
-    vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
+    vim
     wget
+    lf
+    tree
+    fzf
+    htop
+    tmux
+    zip
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
