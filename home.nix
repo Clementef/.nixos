@@ -17,6 +17,7 @@
 
     # cli programs
     hello
+    neovim
 
     # gui programs
     alacritty
