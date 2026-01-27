@@ -8,7 +8,6 @@
 
   home.packages = with pkgs; [
     hello
-    sublime4
     alacritty
   ];
 
