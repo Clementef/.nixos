@@ -10,6 +10,11 @@
     # fonts
     nerd-fonts.jetbrains-mono
 
+    # languages
+    R
+    go
+    python315
+
     # cli programs
     hello
 
