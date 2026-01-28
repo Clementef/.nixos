@@ -10,6 +10,7 @@
       ./hardware-configuration.nix
       ./xfce_x11.nix
       ./user-clem.nix
+      ./user-guest.nix
     ];
 
   # Bootloader.

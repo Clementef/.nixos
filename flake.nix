@@ -21,7 +21,8 @@
           inputs.home-manager.nixosModules.home-manager {
             home-manager.useGlobalPkgs = true;
             home-manager.useUserPackages = true;
-            home-manager.users.clem = import ./home.nix; 
+            home-manager.users.clem = import ./home.nix;
+            home-manager.users.guest = import ./home-guest.nix;
             home-manager.extraSpecialArgs = {inherit inputs;};
           }
         ];
