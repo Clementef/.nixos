@@ -8,7 +8,7 @@
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
-      ./xfce_x11.nix
+      ./plasma_wayland.nix
       ./user-clem.nix
       ./user-guest.nix
     ];
