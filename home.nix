@@ -24,7 +24,7 @@
     mpv
     zathura
     obsidian
-    sublime4
+    mullvad-browser
   ];
 
   programs.git = {

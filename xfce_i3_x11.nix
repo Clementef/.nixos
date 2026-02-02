@@ -1,12 +1,11 @@
 { config, lib, ... }:
 
 # config for xfce desktop manager with i3 window manager
-
 {
   services.xserver = {
-    enable = true;
+    enable = true;   
     desktopManager = {
-      xterm.enable = true;
+      xterm.enable = false;
       xfce = {
         enable = true;
         noDesktop = true;
@@ -15,5 +14,5 @@
     };
     windowManager.i3.enable = true;
   };
-  services.displayManager.defaultSession = "xfce+i3";
+  services.displayManager.defaultSession = "xfce";
 }
